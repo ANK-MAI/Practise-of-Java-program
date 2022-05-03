@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=GladLibMap
+comment1.params=
+comment1.target=GladLibMap()
+comment10.params=
+comment10.target=int\ totalWordsInMap()
+comment11.params=
+comment11.target=int\ totalWordsConsidered()
+comment2.params=source
+comment2.target=GladLibMap(java.lang.String)
+comment3.params=path
+comment3.target=java.util.ArrayList\ readIt(java.lang.String)
+comment4.params=source
+comment4.target=void\ initializeFromSource(java.lang.String)
+comment5.params=list
+comment5.target=java.lang.String\ randomFrom(java.util.ArrayList)
+comment6.params=label
+comment6.target=java.lang.String\ getSubstitute(java.lang.String)
+comment7.params=word
+comment7.target=java.lang.String\ processWord(java.lang.String)
+comment8.params=templatePath
+comment8.target=java.lang.String\ fromTemplate(java.lang.String)
+comment8.text=\r\n\ \ \ \ private\ void\ printOut(String\ story,\ int\ lineWidth)\ //\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ int\ charsWritten\ \=\ 0;\r\n\ \ \ \ \ \ \ \ for(String\ word\ \:\ story.split("\\\\s+"))\ \ //Returns\ an\ array\ of\ substrings\ of\ the\ original\ string,\ the\ answer\ array\ does\ not\ include\ the\ separators\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (charsWritten\ +\ word.length()\ >\ lineWidth)\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ charsWritten\ \=\ 0;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.print(word+"\ ");\r\n\ \ \ \ \ \ \ \ \ \ \ \ charsWritten\ +\=\ word.length()\ +\ 1;\r\n\ \ \ \ \ \ \ \ }\r\n}
+comment9.params=
+comment9.target=void\ makeStory()
+numComments=12
