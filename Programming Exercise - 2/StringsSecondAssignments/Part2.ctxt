@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Part2
+comment1.params=dna\ startCodon\ stopCodon1\ stopCodon2\ stopCodon3
+comment1.target=edu.duke.StorageResource\ findGenes(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ testFindGenes()
+numComments=3
